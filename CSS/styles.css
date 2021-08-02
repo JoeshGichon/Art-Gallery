@@ -8,3 +8,20 @@ h1{
   background-color: #5B0E2D;
   margin-top: 0px;
 }
+
+.nav{
+  background-color: #5b0e2D;
+  
+}
+.nav a{
+  float: right;
+  color: #FFA781;
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 18px;
+}
+
+.nav a:hover{
+background-color: #FFA781;
+color: #5B0E2D;
+}
