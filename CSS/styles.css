@@ -14,7 +14,7 @@ body{
   margin:0;
 }
 
-h1, h2{
+h1, h2, form, p{
   margin: 0;
 }
 
@@ -33,4 +33,12 @@ h1, h2{
 .nav a:hover{
 background-color: #FFA781;
 color: #5B0E2D;
+}
+.request{
+  background-color: #FFA781;
+  color: #5B0E2D;
+}
+form{
+  padding: 0;
+  margin: 0;
 }
