@@ -1,0 +1,27 @@
+#header {
+  color: rgb(25, 0, 255);
+  margin-top: 3em;
+	margin-right: 10em;
+}
+#form {
+	margin-top: 15em;
+}
+#email, #pwd, #pwdConfirm, #Acc {
+	margin-top: 1.5em;
+}
+#txtUserName, #txtEmail, #txtPwd, #txtConPwd {
+	display: none;
+}
+#ready {
+	margin-top: 2em;
+}
+#copyright {
+	margin-top: 3em;
+	color: blue;
+}
+#place {
+	color: rgb(0, 17, 255);
+}
+#copyright span {
+	color: crimson;
+}
