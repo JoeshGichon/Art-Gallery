@@ -2,14 +2,13 @@ body{
   text-align: center;
 }
 .heading{
-  background-color: #FFA781;
-  color: #5B0E2D;
+  background-color: white;
   padding:0;
   margin:0;
 }
 .whatwe{
-  color: #FFA781;
-  background-color: #5B0E2D;
+  color: white;
+  background-color: black;
   padding:0;
   margin:0;
 }
@@ -19,24 +18,23 @@ h1, h2, form, p{
 }
 
 .nav{
-  background-color: #5b0e2D;
-  
+  background-color: black;
 }
 .nav a{
   float: right;
-  color: #FFA781;
+  color: white;
   text-align: center;
   padding: 10px 10px;
   font-size: 18px;
 }
 
 .nav a:hover{
-background-color: #FFA781;
-color: #5B0E2D;
+background-color: #5372fc;
+color: white;
 }
 .request{
-  background-color: #FFA781;
-  color: #5B0E2D;
+  background-color: black;
+  color: white;
 }
 form{
   padding: 0;
@@ -44,5 +42,23 @@ form{
 }
 #MESSAGE{
   height: 200px;
-  width: 1335px;
+  width: 1300px;
+}
+
+.ig{
+  background: url(https://www.kindpng.com/picc/m/276-2764257_instagram-icon-instagram-logo-small-size-hd-png.png);
+  
+}
+.twitter{
+  background: url(https://www.kindpng.com/picc/m/276-2764257_instagram-icon-instagram-logo-small-size-hd-png.png);
+  
+}
+.fb{
+  background: url(https://www.kindpng.com/picc/m/276-2764257_instagram-icon-instagram-logo-small-size-hd-png.png);
+  
+}
+
+.col-md-4{
+height: 150px;
+width: 150px;
 }
