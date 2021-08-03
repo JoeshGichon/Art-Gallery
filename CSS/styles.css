@@ -42,3 +42,7 @@ form{
   padding: 0;
   margin: 0;
 }
+#MESSAGE{
+  height: 200px;
+  width: 1335px;
+}
