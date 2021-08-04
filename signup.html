@@ -41,21 +41,21 @@
     <div class="header text-center">
       <h2>Create Account</h2>
     </div>
-    <form class="row g-3">
+    <form class="row g-3" id="registration_form">
       <div class="row g-3">
         <div class="col">
-          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+          <input type="text" id="firstNameError" class="form-control error_form" placeholder="First name" aria-label="First name">
         </div>
         <div class="col">
-          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+          <input type="text" id="secondNameError" class="form-control error_form" placeholder="Last name" aria-label="Last name">
         </div>
       </div>
       <div class="col-md-6">
-        <label for="inputEmail4" class="form-label">Email</label>
+        <label for="inputEmail4" class="form-label" id="email_error">Email</label>
         <input type="email" class="form-control" id="inputEmail4">
       </div>
       <div class="col-md-6">
-        <label for="inputPassword4" class="form-label">Password</label>
+        <label for="inputPassword4" class="error_form form-label" id="password_error">Password</label>
         <input type="password" class="form-control" id="inputPassword4">
       </div>
       <div class="col-md-8">
