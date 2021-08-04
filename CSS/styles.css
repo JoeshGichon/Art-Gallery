@@ -3,6 +3,18 @@ box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  min-height: 5vh;
+  background-color: black;
+  position: fixed; 
+  top: 0;
+  z-index: 99;
+  border: 1px solid red;
+}
 html{
   height: 100%;
   width: 100%;
@@ -13,14 +25,7 @@ body{
   justify-content: center;
   width: 100%;
 }
-nav{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100vw;
-  min-height: 5vh;
-  background-color: black;
-}
+
 
 section{
   height: 100vh;
