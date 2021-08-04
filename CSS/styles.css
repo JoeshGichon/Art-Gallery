@@ -13,7 +13,6 @@ nav{
   position: fixed; 
   top: 0;
   z-index: 99;
-  border: 1px solid red;
 }
 html{
   height: 100%;
@@ -77,19 +76,22 @@ h1, h2, form, p{
 
 .links{
   display: flex;
-  background-color: purple;
   justify-content: space-around;
   width: 30%;
 }
 .links li{
   list-style: none;
 }
-
 .links a{ 
   color: white;
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
+}
+.links a:hover{ 
+  color: yellow;
+ background-color: blue;
+ 
 }
 
 
