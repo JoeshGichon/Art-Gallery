@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -72,6 +74,7 @@ h1, h2, form, p{
 h1{
   background-color: rgba(217, 230, 230, 0.164);
   color: rgb(255, 255, 255);
+  font-family: Poppins;
 }
 
 .links{
@@ -93,6 +96,7 @@ h1{
  background-color: blue;
  
 }
+
 
 
 form{
@@ -127,6 +131,12 @@ width: 50px;
   margin:auto 0;
   position: absolute;
   left: 33%;
+}
+.logdesc{
+  display: none;
+  color: aliceblue;
+  font-family:Poppins;
+  font-size: 120%;
 }
 @media screen and (max-width:768px) {
   .links{
