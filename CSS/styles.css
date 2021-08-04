@@ -51,22 +51,19 @@ h1,.content{
 }
 
 #heading{
-  background-color: white;
+  background: url(../images/Wo.jpg);
   color: black;
-  
-  
 }
 .whatwe{
   color: white;
   background-color: black;
 }
 .request{
-  background-color: black;
-  color: white;
-}
-.contact{
+  background: url(../images/steve-johnson-YS0YJLU_h2k-unsplash.jpg);
   background-size: cover;
+  color: black;
 }
+
 
 h1, h2, form, p{
   margin: 0;
