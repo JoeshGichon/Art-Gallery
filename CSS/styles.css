@@ -51,7 +51,7 @@ h1,.content{
   overflow-y: scroll;
 }
 
-.heading{
+#heading{
   background-color: white;
   color: black;
   
@@ -97,11 +97,14 @@ form{
   padding: 0;
   margin: 0;
 }
+.slots{
+  color: black;
+}
 
-
-#MESSAGE{
+#mce-MESSAGE{
   height: 200px;
   width: 100vw;
+  font-size:x-large;
 }
 .image{
   height: 50px;

@@ -4,6 +4,7 @@
 <head>
   <title>Art Gallery</title>
   <meta charset="utf-8">
+  <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="./CSS/styles.css">
@@ -16,14 +17,14 @@
       <img class="logo" src="./images/logo.png">
     </div>
     <ul class="links">
-    <li><a class="active" href="#welcome">Welcome</a></li>
+    <li><a class="active" href="#heading">Welcome</a></li>
     <li><a class="active" href="#art">Art</a></li>
     <li><a class="active" href="#about">About</a></li>
     <li><a class="active" href="#Signup">Sign Up</a></li>
     </ul>
   </nav>
-  
-  <section class="heading">
+
+  <section id="heading">
     <h1>WELCOME TO ART MALJONHA GALLERIA</h1>
   </section>
 
@@ -41,18 +42,18 @@
      <h2>SUBMISSION REQUESTS</h2>
      <p>Feel free to request for art submission below.</p>
 
-     <form>
-       <label for="FNAME">First Name</label>
-       <input type="text" id="FNAME" placeholder="First Name..." required>  
-       <label for="LNAME">Last Name</label>
-       <input type="text" id="LNAME" placeholder="Last Name..." required>
+     <form action="https://moringaschool.us6.list-manage.com/subscribe/post?u=ad983070a0b6d6140d8cb9cba&amp;id=454aab6373"method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+      <label for="mce-FNAME">First Name</label>
+       <input type="text" class="slots" id="mce-FNAME" placeholder="First Name..." required>  
+       <label for="mce-LNAME">Last Name</label>
+       <input type="text" class="slots" id="mce-LNAME" placeholder="Last Name..." required>
        <label for="EMAIL">E-mail</label>
-       <input type="email" id="EMAIL">
+       <input type="email" class="slots" name="EMAIL"id="mce-EMAIL">
        <p>Kindly input details such as any publishers your work with, the location you are based in and additional information describing your request below.</p>
        <label for="MESSAGE">Details</label>
-       <input type="text" id="MESSAGE" required>
+       <input type="text" name="MESSAGE "id="mce-MESSAGE" class="slots" required>
        <br><br>
-       <button id="SUBMIT" class="btn btn-default" type="submit">SUBMIT REQUEST</button>
+       <button id="SUBMIT" class="btn btn-default slots" type="submit">SUBMIT REQUEST</button>
 
      </form>
     </div>
