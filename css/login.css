@@ -6,16 +6,31 @@
 #form {
 	margin-top: 15em;
 }
-#email, #pwd, #pwdConfirm, #Acc {
+/* #email, #pwd, #pwdConfirm, #Acc {
 	margin-top: 1.5em;
 }
 #txtUserName, #txtEmail, #txtPwd, #txtConPwd {
 	display: none;
+} */
+input{
+  padding: 0px;
 }
-#ready {
-	margin-top: 2em;
+button{
+    padding: 0px;
 }
+.form-control{
+  padding: 10px;
+}
+#start{
+  font-size: 12px;
+  padding: 0px;
+}
+.meat img{
+  width: 23%;
+}
+/* end of form / start of footer */
 #copyright {
+	background-color: black;
 	margin-top: 3em;
 	color: blue;
 }
@@ -25,19 +40,3 @@
 #copyright span {
 	color: crimson;
 }
-input{
-        padding: 0px;
-    }
-    button{
-        padding: 0px;
-    }
-    .form-control{
-        padding: 10px;
-    }
-    #start{
-        font-size: 12px;
-        padding: 0px;
-    }
-    .meat img{
-        width: 23%;
-    }
