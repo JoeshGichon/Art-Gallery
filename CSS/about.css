@@ -208,4 +208,19 @@ footer{
     background-color: rgb(31,30,30,0.24);
     text-align: center;
 }
+#copy-right,#social{
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 1.6rem;
+}
+#copy-right h5,#social h5{
+    font-size: 2.2rem;
+}
+
+#copy-right h6{
+    font-size: 1.6rem;
+}
+#social{
+    font-size: 3.2rem;
+}
 /* ---------------------------------footer section---------------------- */
