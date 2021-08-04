@@ -41,40 +41,45 @@
     <div class="header text-center">
       <h2>Create Account</h2>
     </div>
-    <form class="form">
-      <div class="form-control ">
-        <label for="username" name="username">Username</label>
-        <input id="txtUserName" type="text" name="username" /> 
-        <small>Error message</small>
+    <form class="row g-3">
+      <div class="row g-3">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+        </div>
       </div>
-      <div class="form-control" id="email">
-        <label for="email" name="email">Email</label>
-        <input id="txtEmail" type="email" name="email"/>
-        <small>Error message</small>
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail4">
       </div>
-      <div class="form-control" id="pwd">
-        <label for="pwd" name="pwd">Password</label>
-        <input id="txtPwd" type="password" name="pwd"/>
-        <small>Error message</small>
+      <div class="col-md-6">
+        <label for="inputPassword4" class="form-label">Password</label>
+        <input type="password" class="form-control" id="inputPassword4">
       </div>
-      <div class="form-control" id="pwdConfirm">
-        <label for="conpwd" name="conpwd">Confirm password</label>
-        <input id="txtConPwd" type="password" name="conpwd"/>
-        <small>Error message</small>
+      <div class="col-12">
+        <label for="inputAddress" class="form-label">Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
       </div>
-			<div class="col-auto">
+      <div class="col-md-6 text-center">
+        <label for="inputCity" class="form-label">City</label>
+        <input type="text" class="form-control" id="inputCity">
+      </div>
+      <div class="col-12">
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="autoSizingCheck">
-          <label class="form-check-label" for="autoSizingCheck">
-            Remember me
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Remember Me
           </label>
         </div>
       </div>
-        <div class="form-conrol" id="Acc">
-          <button type="submit"> CREATE ACCOUNT</button>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Sign in</button>
       </div>
     </form>
-    <div id="ready">
+    <div class="text-center
+    " id="ready">
       <p>Already have an account? <a href="login.html"> LOGIN </a></p>
     </div>
 
