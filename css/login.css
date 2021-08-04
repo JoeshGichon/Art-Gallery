@@ -1,0 +1,53 @@
+#header {
+  color: rgb(25, 0, 255);
+  margin-top: 3em;
+	margin-right: 10em;
+}
+#form {
+	margin-top: 15em;
+}
+#information {
+	color: blue;
+	display: none;
+}
+#information h2 {
+  font-family: cursive;
+}
+#information h5 {
+	color: aliceblue;
+}
+.header h2 {
+	color: blue;
+  font-weight: 600;
+}
+input{
+  padding: 0px;
+}
+button{
+    padding: 0px;
+}
+.form-control{
+  padding: 10px;
+}
+#start{
+  font-size: 12px;
+  padding: 0px;
+}
+.meat img{
+  width: 23%;
+}
+#login a {
+	color: aliceblue;
+}
+/* end of form / start of footer */
+#copyright {
+	background-color: black;
+	margin-top: 3em;
+	color: blue;
+}
+#place {
+	color: rgb(0, 17, 255);
+}
+#copyright span {
+	color: crimson;
+}
