@@ -12,6 +12,10 @@
 #txtUserName, #txtEmail, #txtPwd, #txtConPwd {
 	display: none;
 } */
+.header h2 {
+	color: blue;
+  font-weight: 600;
+}
 input{
   padding: 0px;
 }
