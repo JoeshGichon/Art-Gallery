@@ -1,29 +1,36 @@
 html{
   height: 100%;
+  width: 100%;
 }
 body{
   height: 100%;
   vertical-align: middle;
   justify-content: center;
+  width: 100%;
 }
 
-div{
+section{
   height: 100vh;
   text-align: center;
   align-items: center;
   justify-content: center;
   position: relative;
+  width: 100vw;
+  scroll-snap-align: start;
 }
-h1{
+h1,.content{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) ;
 }
-.container{
-  height: 100%;
+.container-fluid{
+  height: 100vh;
   scroll-behavior: smooth;
-  
+  width: 100vw;
+  padding: 0;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
 }
 
 .heading{
@@ -54,22 +61,37 @@ h1, h2, form, p{
   position: fixed;
   top: 0;
   z-index: 1;
-  display: flex;
-  width: 100%;
+  width: 100vw;
   height: 60px;
   text-align: right;
+  padding-left: 0;
+  margin-left: 0;
 }
+ul{
+  list-style-type: none;
+  overflow: hidden;
+  align-items: flex-end;
+  color: aliceblue;
+  position: absolute;
+  left: 70%;
+  display: inline-block;
+}
+li{
+  padding: 0;
+  margin: 0;
+  display: inline-block;
 
-.nav a{
-  float: right; 
+}
+li a{
   display: flex;
   color: white;
   text-align: center;
+  text-decoration: none;
   padding: 10px 10px;
   font-size: 18px;
 }
 
-.nav a:hover{
+li a:hover{
 background-color: #5372fc;
 color: white;
 }
@@ -82,17 +104,24 @@ form{
 
 #MESSAGE{
   height: 200px;
-  width: 1300px;
+  width: 100vw;
 }
 .image{
   height: 50px;
   height: 50px;
+  
 }
-
+.logo{
+  height: 50px;
+  width: 70px;
+  float: left;
+}
 .col-md-4{
 height: 50px;
 width: 50px;
 }
 .contact-table{
-  margin-left: 580px;
+  margin:auto 0;
+  position: absolute;
+  left: 33%;
 }
