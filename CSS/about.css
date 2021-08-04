@@ -102,6 +102,9 @@ nav div:nth-child(2) a{
 #intro a:hover{
     background-color:#f2bc94;
 }
+#intro-logo img{
+    display: block;
+}
 /* ------------------------------End-------------------------------------- */
 
 
@@ -194,7 +197,10 @@ nav div:nth-child(2) a{
   .owl-dot.active{
     background-color: black !important;
   }
-  
+  #testimonials{
+      margin:7rem 0;
+
+  }
 /* -------------------------Testimonils--------------------------------- */
 
 /* ---------------------------------footer section---------------------- */
