@@ -1,3 +1,6 @@
+*{
+box-sizing: border-box;
+}
 html{
   height: 100%;
   width: 100%;
@@ -56,44 +59,23 @@ h1, h2, form, p{
 }
 
 
-.nav{
-  background-color: rgba(15, 15, 15, 0.973);
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  width: 100vw;
-  height: 60px;
-  text-align: right;
-  padding-left: 0;
-  margin-left: 0;
-}
-ul{
-  list-style-type: none;
-  overflow: hidden;
-  align-items: flex-end;
-  color: aliceblue;
-  position: absolute;
-  left: 70%;
-  display: inline-block;
-}
-li{
-  padding: 0;
-  margin: 0;
-  display: inline-block;
-
-}
-li a{
+nav{
   display: flex;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  padding: 10px 10px;
-  font-size: 18px;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 5vh;
+  background-color: black;
 }
-
-li a:hover{
-background-color: #5372fc;
-color: white;
+.links{
+  display: flex;
+  background-color: purple;
+  justify-content: space-around;
+  width: 30%;
+}
+.links a{
+  color: white;
+  text-decoration: none;
+  letter-spacing: 3px;
 }
 
 form{
