@@ -1,3 +1,14 @@
+$(document).ready(function(){
+	$("#icon").click(function(){
+		$("#information").show();
+		$("#icon").hide();
+	});
+	$("#information").click(function(){
+		$("#icon").show();
+		$("#information").hide();
+	});
+})
+
 $(function(){
 	$("#firstNameError").show();
   $("#secondNameError").show();

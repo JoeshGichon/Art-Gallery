@@ -12,10 +12,18 @@
 <body>
 		<header>
 		<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top ">
-      <a class="navbar-brand" href="#"><img src="./LogoIcons/Maljonha_Logo_icon-removebg-preview.png" height="155px"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <div class="col-md-4">
+        <div id="icon">
+					<img src="./LogoIcons/Maljonha_Logo_icon-removebg-preview.png" height="155px" alt="">
+          <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+				</div>
+				<div class="text-center" id="information">
+					<h2>MALJONHA</h2>
+					<h5>WHERE ART <br> IS ACTUALIZED!</h5>
+				</div>
+			</div>
       <div class="collapse mb-0 h4 nav justify-content-end navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav btn btn-outline-success" id="header">
           <li class="nav-item">
@@ -66,7 +74,7 @@
           </label>
         </div>
       </div>
-      <div class="col-12">
+      <div class="col-12" id="login">
         <button type="submit" class="btn btn-primary"><a href="">LOGIN</a></button>
       </div>
     </form>
@@ -80,5 +88,7 @@
      	<h5 class="text-muted">Copyright: <span>&copy;</span> 2021 ; All Rights Reserved!</h5>
     </div>
 	</footer>
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+	<script src="./js/login.js"></script>
 </body>
 </html>

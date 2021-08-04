@@ -6,6 +6,16 @@
 #form {
 	margin-top: 15em;
 }
+#information {
+	color: blue;
+	display: none;
+}
+#information h2 {
+  font-family: cursive;
+}
+#information h5 {
+	color: aliceblue;
+}
 /* #email, #pwd, #pwdConfirm, #Acc {
 	margin-top: 1.5em;
 }
@@ -31,6 +41,9 @@ button{
 }
 .meat img{
   width: 23%;
+}
+#login a {
+	color: aliceblue;
 }
 /* end of form / start of footer */
 #copyright {
