@@ -1,5 +1,7 @@
 *{
 box-sizing: border-box;
+margin: 0;
+padding: 0;
 }
 html{
   height: 100%;
@@ -10,6 +12,14 @@ body{
   vertical-align: middle;
   justify-content: center;
   width: 100%;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  min-height: 5vh;
+  background-color: black;
 }
 
 section{
@@ -59,24 +69,24 @@ h1, h2, form, p{
 }
 
 
-nav{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 5vh;
-  background-color: black;
-}
+
 .links{
   display: flex;
   background-color: purple;
   justify-content: space-around;
   width: 30%;
 }
-.links a{
+.links li{
+  list-style: none;
+}
+
+.links a{ 
   color: white;
   text-decoration: none;
   letter-spacing: 3px;
+  font-weight: bold;
 }
+
 
 form{
   padding: 0;
@@ -90,12 +100,10 @@ form{
 }
 .image{
   height: 50px;
-  height: 50px;
-  
 }
 .logo{
-  height: 50px;
-  width: 70px;
+  height: 90px;
+  width: 90px;
   float: left;
 }
 .col-md-4{
@@ -106,4 +114,12 @@ width: 50px;
   margin:auto 0;
   position: absolute;
   left: 33%;
+}
+@media screen and (max-width:768px) {
+  .links{
+    width: 40%;
+  }
+  .contact-table{
+    left: 30%;
+  }
 }
