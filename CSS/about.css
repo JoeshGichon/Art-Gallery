@@ -13,7 +13,49 @@ a{
 img{
     background-repeat: no-repeat;
 }
+.heading{
+    text-align: center;
+    font-family:'Roboto Mono', monospace;
+    font-size: 2.2em;
+    font-weight: 700;
+    color: rgb(51, 48, 48);
+}
 /* ----------------------------End---------------- */
+
+/* ------------------Header section styles--------------------------- */
+header{
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    height: auto;
+    width: 100vw;
+    background-color: rgb(31,30,30,0.24);
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#logo{
+    height: 10em;
+    width: 10em;
+}
+#logo img{
+    height: 10em;
+    width: 10em;
+}
+nav div:nth-child(2) li{
+    display: inline-block;
+    margin: 2rem;
+}
+nav div:nth-child(2) a{
+    color: white;
+    font-size: 1.4em;
+    padding: 1.2em;
+    text-transform: uppercase;
+}
+/* ---------------------------End------------------------------- */
 
 /* ---------------------Introduction section-------------------------------- */
 .intro{
@@ -36,8 +78,8 @@ img{
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: black;
-    opacity: .7;
+    background-color:#00154f;
+    opacity: .6;
     z-index: -1;
 }
 .intro h1,.intro h2{
@@ -57,8 +99,107 @@ img{
     letter-spacing: .1rem;
     margin-top: 36px;
 }
-.intro a:hover{
-    color: yellow;
-    background-color: grey;
+#intro a:hover{
+    background-color:#f2bc94;
 }
 /* ------------------------------End-------------------------------------- */
+
+
+/* --------------------------About us section----------------------------- */
+#founders-description{
+    margin-top: 7rem;
+}
+#founders-description h2{
+    text-align: center;
+    font-family:'Roboto Mono', monospace;
+    font-size: 2.2em;
+    font-weight: 700;
+    color: rgb(51, 48, 48);
+}
+#founders-description h2 span{
+    color: blue;
+}
+#founders-description p{
+    text-align: center;
+    line-height: 1.5em;
+    padding: 2em;
+}
+#individuals{
+    margin-top: 5em;
+    margin-bottom: 3rem;
+}
+#individuals img{
+    border: 2px solid rgb(7, 7, 63);
+    border-radius: 50%;
+}
+/* --------------------------About us section----------------------------- */
+
+/* -------------------------Testimonils--------------------------------- */
+#slider{
+    padding-top: 15%;
+    font-family: poppins;
+    background-image: url("../images/c.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
+  .img-area{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+  }
+  .img-area img{
+    width: 100%;
+  }
+  .content{
+    text-align: center;
+    padding: 40px;
+    color: black;
+    background-color: rgba(255,255,255,0.08);
+    backdrop-filter: blur(12px);
+    border-radius: 25px;
+  }
+  .content h2{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .content p{
+    line-height: 1.9;
+  }
+  .socials{
+    margin-top: 30px;
+  }
+  .socials i{
+    font-size: 20px;
+    margin: 0 10px;
+    color: black;
+  }
+  .owl-dots{
+    text-align: center;
+    margin-top: 3px;
+  }
+  .owl-dot{
+    display: inline-block;
+    height: 10px !important;
+    width: 10px !important;
+    background-color: #add !important;
+    opacity: 0.8;
+    margin: 0 10px;
+    border-radius: 50%;
+  }
+  .owl-dot.active{
+    background-color: black !important;
+  }
+  
+/* -------------------------Testimonils--------------------------------- */
+
+/* ---------------------------------footer section---------------------- */
+footer{
+    background-color: rgb(31,30,30,0.24);
+    text-align: center;
+}
+/* ---------------------------------footer section---------------------- */
