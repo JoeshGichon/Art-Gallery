@@ -1,10 +1,20 @@
 body{
     background-color: #6F1E51;
 }
+.navigation{
+    margin-bottom: 15px !important;
+    opacity: 0.9;
+    background-color: #6F1E51 !important;
+    
+}
+#header{
+    margin-right: 0em;
+    margin-top: 0.4% !important;
+}
 h1{
     color: #6F1E51;
     text-align: center;
-    margin-top: 20px;
+    
     text-shadow:3px 3px white;
 }
 h2{
