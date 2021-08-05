@@ -147,8 +147,8 @@ $(function(){
     check_password();
 
 		if (error_fname === false && error_sname === false && error_email === false && error_password === false) {
-			window.open('gallery.html');
 			alert("Welcome to Maljonha Galleria!");
+      window.open('gallery.html');
 		}
 		else {
       alert("Please Fill the form Correctly");
