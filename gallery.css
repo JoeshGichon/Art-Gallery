@@ -1,0 +1,25 @@
+body{
+    background-color: #6F1E51;
+}
+h1{
+    color: #6F1E51;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow:3px 3px white;
+}
+h2{
+    text-align: center;
+    color: #6F1E51;
+    text-shadow:4px 4px white;
+}
+.card{
+    margin-left: 10px;
+}
+.modal-header{
+background-color: #6F1E51;
+}
+.btn-info{
+    background-color: #ced6e0;
+    margin-left: 25%;
+    margin-right: 25%;
+}

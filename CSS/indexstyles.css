@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  min-height: 5vh;
+  background-color: black;
+  position: fixed; 
+  top: 0;
+  z-index: 99;
+}
+html{
+  height: 100%;
+  width: 100%;
+}
+body{
+  height: 100%;
+  vertical-align: middle;
+  justify-content: center;
+  width: 100%;
+}
+
+
+section{
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100vw;
+  scroll-snap-align: start;
+}
+h1,.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) ;
+}
+.container-fluid{
+  height: 100vh;
+  scroll-behavior: smooth;
+  width: 100vw;
+  padding: 0;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+#heading{
+  background: url(../indeximages/Wo.jpg);
+  color: black;
+}
+.whatwe{
+  color: white;
+  background-color: black;
+}
+.request{
+  background: url(../indeximages/steve-johnson-YS0YJLU_h2k-unsplash.jpg);
+  background-size: cover;
+  color: black;
+}
+
+
+h1, h2, form, p{
+  margin: 0;
+}
+
+h1{
+  background-color: rgba(217, 230, 230, 0.164);
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+}
+
+.links{
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+.links li{
+  list-style: none;
+}
+.links a{ 
+  color: white;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+.links a:hover{ 
+  color: yellow;
+ background-color: blue;
+ 
+}
+
+
+
+form{
+  padding: 0;
+  margin: 0;
+}
+.slots{
+  background-color: black;
+  color: white;
+}
+::placeholder{
+  color: aliceblue;
+}
+#mce-MESSAGE{
+  height: 200px;
+  width: 100vw;
+  font-size:x-large;
+}
+.image{
+  height: 50px;
+}
+.logo{
+  height: 90px;
+  width: 90px;
+  float: left;
+}
+.col-md-4{
+height: 50px;
+width: 50px;
+}
+.contact-table{
+  margin:auto 0;
+  position: absolute;
+  left: 33%;
+}
+.logdesc{
+  display: none;
+  color: aliceblue;
+  font-family:Poppins;
+  font-size: 120%;
+}
+@media screen and (max-width:768px) {
+  .links{
+    width: 40%;
+  }
+  .contact-table{
+    left: 30%;
+  }
+}

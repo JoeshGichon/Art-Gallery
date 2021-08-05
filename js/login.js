@@ -127,16 +127,32 @@ $(function(){
     check_retype_password();
 
     if (error_fname === false && error_sname === false && error_email === false && error_password === false && error_retype_password === false) {
-      alert("Registration Successfull");
-      return true;
+      alert("Registration Successful.Click To Login Please!");
+      window.open('login.html');
     }
 		else {
       alert("Please Fill the form Correctly");
       return false;
     }
-
-
   });
-   
+  $("#login_form").submit(function() {
+		error_fname = false;
+    error_sname = false;
+    error_email = false;
+    error_password = false;
 
+		check_fname();
+    check_sname();
+    check_email();
+    check_password();
+
+		if (error_fname === false && error_sname === false && error_email === false && error_password === false) {
+			window.open('gallery.html');
+			alert("Welcome to Maljonha Galleria!");
+		}
+		else {
+      alert("Please Fill the form Correctly");
+      return false;
+    }
+	})
 });
