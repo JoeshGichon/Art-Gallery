@@ -43,17 +43,23 @@ header{
 }
 #logo img{
     height: 10em;
-    width: 10em;
+    width: 1em;
+}
+nav{
+	background-color: rgba(31,30,30,0.24) !important; 
 }
 nav div:nth-child(2) li{
     display: inline-block;
-    margin: 2rem;
+    margin: 1rem;
 }
 nav div:nth-child(2) a{
     color: white;
-    font-size: 1.4em;
-    padding: 1.2em;
+    font-size: 1em;
+    padding: 1em;
     text-transform: uppercase;
+}
+nav div:nth-child(2) a:hover{
+    border-radius: 10px;
 }
 /* ---------------------------End------------------------------- */
 
@@ -105,6 +111,14 @@ nav div:nth-child(2) a{
 #intro-logo img{
     display: block;
 }
+.container-fluid{
+    position: relative;
+}
+#intro{
+    position: absolute;
+    top: 50%;
+}
+
 /* ------------------------------End-------------------------------------- */
 
 
@@ -132,8 +146,25 @@ nav div:nth-child(2) a{
     margin-bottom: 3rem;
 }
 #individuals img{
-    border: 2px solid rgb(7, 7, 63);
     border-radius: 50%;
+}
+#individuals p{
+    padding: 0.8em;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+#individuals img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#individuals button{
+    align-items: center;
+}
+#p1,#p2,#p3,#p4,#p5,#p6{
+    display: none;
 }
 /* --------------------------About us section----------------------------- */
 
