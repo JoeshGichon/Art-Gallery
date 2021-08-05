@@ -1,0 +1,148 @@
+$(document).ready(function(){
+    $("#drawing1").click(function(){
+        $("#drawing1").hide(1000);
+        $("#drawing1-def").show(1000);
+    })
+    $("#drawing1-def").click(function(){
+        $("#drawing1-def").hide(1000);
+        $("#drawing1").show(1000);
+    })
+});
+$(document).ready(function(){
+    $("#drawing2").click(function(){
+        $("#drawing2").hide(1000);
+        $("#drawing2-def").show(1000);
+    })
+    $("#drawing2-def").click(function(){
+        $("#drawing2-def").hide(1000);
+        $("#drawing2").show(1000);
+    })
+});
+$(document).ready(function(){
+    $("#drawing3").click(function(){
+        $("#drawing3").hide(1000);
+        $("#drawing3-def").show(1000);
+    })
+    $("#drawing3-def").click(function(){
+        $("#drawing3-def").hide(1000);
+        $("#drawing3").show(1000);
+    })
+});
+$(document).ready(function(){
+    $("#photo1").click(function(){
+        $("#photo1").hide(1000);
+        $("#photo1-def").show(1000);
+    })
+    $("#photo1-def").click(function(){
+        $("#photo1-def").hide(1000);
+        $("#photo1").show(1000);
+    })
+});
+$(document).ready(function(){
+    $("#photo2").click(function(){
+        $("#photo2").hide(1000);
+        $("#photo2-def").show(1000);
+    })
+    $("#photo2-def").click(function(){
+        $("#photo2-def").hide(1000);
+        $("#photo2").show(1000);
+    })
+});
+$(document).ready(function(){
+    $("#photo3").click(function(){
+        $("#photo3").hide(1000);
+        $("#photo3-def").show(1000);
+    })
+    $("#photo3-def").click(function(){
+        $("#photo3-def").hide(1000);
+        $("#photo3").show(1000);
+    })
+});
+$(document).ready(function(){
+    $("#sculpt1").click(function(){
+        $("#sculpt1").hide(1000);
+        $("#sculpt1-def").show(1000);
+    })
+    $("#sculpt1-def").click(function(){
+        $("#sculpt1-def").hide(1000);
+        $("#sculpt1").show(1000);
+    })
+});
+$(document).ready(function(){
+    $("#sculpt2").click(function(){
+        $("#sculpt2").hide(1000);
+        $("#sculpt2-def").show(1000);
+    })
+    $("#sculpt2-def").click(function(){
+        $("#sculpt2-def").hide(1000);
+        $("#sculpt2").show(1000);
+    })
+});
+$(document).ready(function(){
+    $("#sculpt3").click(function(){
+        $("#sculpt3").hide(1000);
+        $("#sculpt3-def").show(1000);
+    })
+    $("#sculpt3-def").click(function(){
+        $("#sculpt3-def").hide(1000);
+        $("#sculpt3").show(1000);
+    })
+});
+$(document).ready(function(){
+    $("#paper1").click(function(){
+        $("#paper1").hide(1000);
+        $("#paper1-def").show(1000);
+    })
+    $("#paper1-def").click(function(){
+        $("#paper1-def").hide(1000);
+        $("#paper1").show(1000);
+    })
+});
+$(document).ready(function(){
+    $("#paper2").click(function(){
+        $("#paper2").hide(1000);
+        $("#paper2-def").hide(1000);
+        $("#paper2").show(1000);
+    })
+});
+$(document).ready(function(){
+    $("#paper3").click(function(){
+        $("#paper3").hide(1000);
+        $("#paper3-def").show(1000);
+    })
+    $("#paper3-def").click(function(){
+        $("#paper3-def").hide(1000);
+        $("#paper3").show(1000);
+    })
+});
+$(document).ready(function(){
+    $("#deco1").click(function(){
+        $("#deco1").hide(1000);
+        $("#deco1-def").show(1000);
+    })
+    $("#deco1-def").click(function(){
+        $("#deco1-def").hide(1000);
+        $("#deco1").show(1000);
+    })
+});
+$(document).ready(function(){
+    $("#deco2").click(function(){
+        $("#deco2").hide(1000);
+        $("#deco2-def").show(1000);
+    })
+    $("#deco2-def").click(function(){
+        $("#deco2-def").hide(1000);
+        $("#deco2").show(1000);
+    })
+});
+$(document).ready(function(){
+    $("#deco3").click(function(){
+        $("#deco3").hide(1000);
+        $("#deco3-def").show(1000);
+    })
+    $("#deco3-def").click(function(){
+        $("#deco3-def").hide(1000);
+        $("#deco3").show(1000);
+    })
+});
+
