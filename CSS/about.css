@@ -55,6 +55,10 @@ nav div:nth-child(2) a{
     padding: 1.2em;
     text-transform: uppercase;
 }
+nav div:nth-child(2) a:hover{
+    background-color: green;
+    border-radius: 10px;
+}
 /* ---------------------------End------------------------------- */
 
 /* ---------------------Introduction section-------------------------------- */
