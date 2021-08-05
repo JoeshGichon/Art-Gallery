@@ -45,6 +45,9 @@ header{
     height: 10em;
     width: 10em;
 }
+nav{
+	background-color: rgba(31,30,30,0.24) !important; 
+}
 nav div:nth-child(2) li{
     display: inline-block;
     margin: 2rem;
@@ -109,6 +112,14 @@ nav div:nth-child(2) a:hover{
 #intro-logo img{
     display: block;
 }
+.container-fluid{
+    position: relative;
+}
+#intro{
+    position: absolute;
+    top: 50%;
+}
+
 /* ------------------------------End-------------------------------------- */
 
 
