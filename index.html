@@ -6,13 +6,48 @@
     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/login.css">
     <link rel="stylesheet" href="./CSS/indexstyles.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./js/login.js"></script>
     <script src="./js/index.js"></script>
   </head>
   <body>
     <div class="container-fluid">
-      <nav>
+
+      <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+          <div class="col-md-4">
+            <div id="icon">
+              <img src="./LogoIcons/Maljonha_Logo_icon-removebg-preview.png" height="155px" alt="">
+            </div>
+            <div class="text-center" id="information">
+              <h2>MALJONHA</h2>
+              <h5>WHERE ART <br> IS ACTUALIZED!</h5>
+            </div>
+          </div>
+          <div class="collapse mb-0 h4 nav justify-content-end navbar-collapse" id="header" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item btn btn-outline-success">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item btn btn-outline-success">
+                <a class="nav-link" href="signup.html">Sign Up</a>
+              </li>
+              <li class="nav-item btn btn-outline-success">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item btn btn-outline-success">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>    
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <!-- old nav code -->
+      <!-- <nav>
         <div class="the-logo">
           <img class="logo" src="./indeximages/logo.png">
           <p class="logdesc">WHERE ART IS ACTUALIZED</p>
@@ -23,20 +58,22 @@
           <li><a class="active" href="about.html">About</a></li>
           <li><a class="active" href="signup.html">Sign Up</a></li>
         </ul>
-      </nav>
+      </nav> -->
+      <!-- old nav code -->
       <section id="heading">
         <h1>WELCOME TO ART MALJONHA GALLERIA</h1>
       </section>
       <section class="whatwe">
         <div class="content">
-          <h2>WHAT WE DO</h2>
-          <p> This is a platform where artist can provide their work and display it for all to see.</p>
+          <h2 class="whatwe-title">WHAT WE DO</h2>
+          <p> This is a platform where artists can provide their work and display it for all to see.</p>
           <p>In the process we aim to allow artists to reach their audience without much difficulty and also aim to prevent swindlers from stealing art and presenting it as their own.</p>
           <p>We aim to do this by monitoring any art projects and their origin before uploading them onto the platform.</p>
         </div>
       </section>
       <section class="request">
         <div class="content">
+          <br><br>
           <h2>REQUESTS</h2>
           <p>Feel free to request for art submission and purchase below.</p>
           <form action="https://moringaschool.us6.list-manage.com/subscribe/post?u=ad983070a0b6d6140d8cb9cba&amp;id=454aab6373"method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
@@ -46,7 +83,7 @@
             <input type="text" class="slots" id="mce-LNAME" placeholder="Last Name..." required>
             <label for="EMAIL">E-mail</label>
             <input type="email" class="slots" name="EMAIL"id="mce-EMAIL" placeholder="Email..." required>
-            <p>Kindly input details such as any publishers your work with, the location you are based in and additional information describing your request below.</p>
+            <p class="kindly">Kindly input details such as any publishers your work with, the location you are based in and additional information describing your request below.</p>
             <label for="MESSAGE">Details</label>
             <input type="text" name="MESSAGE "id="mce-MESSAGE" class="slots" placeholder="Message..." required>
             <br><br>
@@ -57,7 +94,7 @@
       <section class="contact">
         <div class="content">
           <h2>CONTACT US</h2>
-          <p>Make sure to check out our social media for updates, art news and art.</p>
+          <p class="makesure">Make sure to check out our social media for updates, news and art.</p>
           <div class="contact-table">
             <div class="row">
               <div class="col-md-4 col-xs-4 ig" >
