@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
 }
-nav{
+/* nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -15,7 +15,7 @@ nav{
   position: fixed; 
   top: 0;
   z-index: 99;
-}
+} */
 html{
   height: 100%;
   width: 100%;
@@ -25,6 +25,24 @@ body{
   vertical-align: middle;
   justify-content: center;
   width: 100%;
+}
+header{
+  position: relative;
+}
+.navbar{
+  background: rgba(31, 30, 30, 0.808) !important;
+}
+.navbar-nav{
+  height: 10vh;
+}
+li{
+  width: 6vw;
+  font-size: 100% !important;
+}
+#icon{
+position: absolute;
+bottom: 50%;
+top: -120%;
 }
 
 
@@ -54,7 +72,6 @@ h1,.content{
 
 #heading{
   background: url(../indeximages/Wo.jpg);
-  color: black;
 }
 .whatwe{
   color: white;
@@ -67,41 +84,23 @@ h1,.content{
 }
 
 
-h1, h2, form, p{
-  margin: 0;
+form, p{
+  font-size: 170%;
 }
-
-h1{
+.kindly{
+  font-size: 100%;
+}
+h1, h2{
   background-color: rgba(217, 230, 230, 0.164);
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 400%;
   font-family: Poppins;
 }
-
-.links{
-  display: flex;
-  justify-content: space-around;
-  width: 30%;
-}
-.links li{
-  list-style: none;
-}
-.links a{ 
+.whatwe-title{
   color: white;
-  text-decoration: none;
-  letter-spacing: 3px;
-  font-weight: bold;
 }
-.links a:hover{ 
-  color: yellow;
- background-color: blue;
- 
-}
-
-
-
-form{
-  padding: 0;
-  margin: 0;
+#SUBMIT{
+  width: 8%;
 }
 .slots{
   background-color: black;
@@ -118,11 +117,7 @@ form{
 .image{
   height: 50px;
 }
-.logo{
-  height: 90px;
-  width: 90px;
-  float: left;
-}
+
 .col-md-4{
 height: 50px;
 width: 50px;
@@ -132,11 +127,13 @@ width: 50px;
   position: absolute;
   left: 33%;
 }
-.logdesc{
-  display: none;
+.contact{
+background: url(../indeximages/Gaspar\ Uhas.jpg);
+background-size: cover;
+
+}
+.makesure{
   color: aliceblue;
-  font-family:Poppins;
-  font-size: 120%;
 }
 @media screen and (max-width:768px) {
   .links{
